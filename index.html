@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+	<link rel="stylesheet" href="style.css">
+    <head>
+	
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>NBA</title>
+		<script src="script.js" defer></script>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1>les conference en NBA</h1>
+		<h3><span class="souligne">Histoire de la NBA :</span></h3>
+        <div id="bloc1">
+        <p> La NBA est créé le 6 juin 1946 sous le nom de BAA(Basketball Association of America) et sera renommé en 1949 en NBA(National Basketball Association). <br>
+			Aujourd'hui, le président de la NBA est Adam Silver, un avocat américain. </p>
+        </div>
+		<h3><span class="souligne">West conference</span></h3>
+		<div id="bloc1">
+		la conference Ouest comporte 15 équipe NBA. Ces équipes se touve dans la partie Ouest des Etats-Unis. <br>
+		</div>
+        <p>Voici les quipes :</p> 
+		<select onchange="recette(this.value)">
+		<option value="rien" selected></option>
+            <option value="Clippers">Clippers</option>
+            <option value="Lakers">Lakers</option>
+            <option value="Suns">Suns</option>
+	    <option value="Kings">Kings</option>
+	    <option value="Mavericks">Mavericks</option>
+       	    <option value="Rockets">Rockets</option>
+	    <option value="Grizzlies">Grizzlies</option>
+	    <option value="Pelicans">Pelicans</option>
+	    <option value="Spurs">Spurs</option>
+	    <option value="Trail Blazers">Trail Blazers</option>
+	    <option value="Jazz">Jazz</option>
+        </select>
+
+	</br> 
+	<div id="infoFruit"> 
+        </div>
+
+
+		<ul>
+            <li> <a href="page_3.html">Nuggets de Denver</a></li>
+            <li> <a href="page_2.html">Timberwolves du Minnesota</a> </li>
+			<li> <a href="page_4.html">Thunder d'Oklahoma City</a> </li>
+			<li> <a href="page_5.html">Warriors de Golden State </a></li>
+
+        </ul> 
+
+			<img src="nba.jpg"><br>
+	</body>
+	
+	
+ 
+</html>
